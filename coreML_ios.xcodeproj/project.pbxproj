@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CA7B8DB1FC8A1A4000B57C6 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7B8DA1FC8A1A3000B57C6 /* SqueezeNet.mlmodel */; };
+		9CA7B8DD1FC8AEFC000B57C6 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7B8DC1FC8AEFB000B57C6 /* Resnet50.mlmodel */; };
 		9CD106BE1FC61F12007DF4A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD106BD1FC61F12007DF4A3 /* AppDelegate.swift */; };
 		9CD106C01FC61F12007DF4A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD106BF1FC61F12007DF4A3 /* ViewController.swift */; };
 		9CD106C31FC61F12007DF4A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD106C11FC61F12007DF4A3 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9CA7B8DA1FC8A1A3000B57C6 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		9CA7B8DC1FC8AEFB000B57C6 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		9CD106BA1FC61F12007DF4A3 /* coreML_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreML_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD106BD1FC61F12007DF4A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CD106BF1FC61F12007DF4A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				9CD106BD1FC61F12007DF4A3 /* AppDelegate.swift */,
 				9CD106BF1FC61F12007DF4A3 /* ViewController.swift */,
 				9CD106C11FC61F12007DF4A3 /* Main.storyboard */,
+				9CA7B8DA1FC8A1A3000B57C6 /* SqueezeNet.mlmodel */,
+				9CA7B8DC1FC8AEFB000B57C6 /* Resnet50.mlmodel */,
 				9CD106C41FC61F12007DF4A3 /* Assets.xcassets */,
 				9CD106C61FC61F12007DF4A3 /* LaunchScreen.storyboard */,
 				9CD106C91FC61F12007DF4A3 /* Info.plist */,
@@ -200,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CD106C01FC61F12007DF4A3 /* ViewController.swift in Sources */,
+				9CA7B8DB1FC8A1A4000B57C6 /* SqueezeNet.mlmodel in Sources */,
+				9CA7B8DD1FC8AEFC000B57C6 /* Resnet50.mlmodel in Sources */,
 				9CD106BE1FC61F12007DF4A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +364,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7979X6HKG4;
 				INFOPLIST_FILE = coreML_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.coreML-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,6 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7979X6HKG4;
 				INFOPLIST_FILE = coreML_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.coreML-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
